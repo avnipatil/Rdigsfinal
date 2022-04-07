@@ -1,0 +1,298 @@
+.Demand-Generation-banner{
+    height: 85vh;
+    background-image: linear-gradient(
+        rgb(0 0 0 / 60%),
+        rgb(0 0 0 / 68%)
+      ),
+      url('../../img/services/demandbanner.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.Demand-Generation-Sec{
+    background-color: #f6f9ff;
+    /* background-image: url('../../img/services/banner_back1.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width:100%; */
+}
+.Demand-img1{ 
+    width: 100%; 
+    height:auto;
+    float: left;
+    background-color: transparent;
+}
+.Drive-Excess-Conversion-demand{
+    margin-bottom: 10px;
+}
+.Demand-right{
+    padding:20px;
+    font-size: 20px;
+    text-align: left;
+}
+.Demand-text-col{
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+}
+.Demand-img-col{
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;  
+}
+.Demand-subhead{
+    padding: 10px;
+}
+.Demand-icon-col{
+    margin-top:50px;
+}
+.Demand-img-p{
+    margin: 20px;
+    font-size:20px;
+}
+.Demand-img-p2{
+    margin: 20px;
+    margin-left:15rem;
+    font-size:20px;
+}
+.Demand-img-p3{
+    margin: 20px;
+
+    margin-right:15rem;
+    font-size:20px;
+}
+.Demand-round-img2{
+    margin-left:15rem;
+}
+.Demand-round-img3{
+    margin-right: 15rem;
+}
+.section-services{
+    background-color: lightblue;
+}
+.thumbnail-light-image{
+    width: 100%;
+    vertical-align: middle;
+    border-style: none;
+    display: inline-block;
+    max-width: 100%;
+    height: auto;
+    border-radius: 6px;
+}
+.text-width-1{
+    font-size: 20px;
+    padding: 30px;
+}
+.heading-services{
+    padding: 30px;
+    margin-top:10px;
+}
+.services-row{
+    margin-top: 50px;
+}
+.thumbnail-light-image:hover{
+	opacity: 1;
+	-webkit-animation: flash 1.5s;
+	animation: flash 1.5s;
+}
+
+@-webkit-keyframes flash {
+	0% {
+		opacity: .4;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+@keyframes flash {
+	0% {
+		opacity: .4;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+/* responsive */
+  @media only screen and (min-width: 575px) and (min-width: 768px) { 
+    .Drive-Excess-Conversion-demand {
+        padding: 10px 20px;
+        }
+    .Demand-right{
+        padding:0px;
+    }
+    .Demand-subhead{
+        padding: 0px;
+    }
+  }
+  /* for services */
+  #service-head {
+    padding-bottom: 100px;
+    padding-top: 90px;
+}
+.heading p{
+    font-size: 20px;
+}
+.service-style-two {
+    background: url(../../img/services/bg-2.jpg) no-repeat;
+    background-size: cover;
+    position: relative;
+}
+/* service 1 */
+#service-2, .section-ser{
+    background-color: white;
+}
+.section-ser {
+    background-color: #f6f9ff;
+}
+.about-list {
+    margin-top: 30px;
+    list-style-type: none;
+}
+.about-list li {
+    width: 45%;
+    float: left;
+    margin-bottom: 15px;
+    margin-right: 15px;
+    color: #888;
+}
+.about-list li i {
+    color: #000;
+    margin-right: 10px;
+}
+.about-list p {
+    line-height: 28px;
+    font-size: 15px;
+    color:black;
+}
+.section-padding11 {
+    padding: 50px 0px;
+}
+.service-box-2 h4 {
+    font-size: 22px;
+    line-height: 32px;
+}
+/* services 2 */
+#service {
+    margin-top: -100px;
+    padding-bottom: 20px;
+}
+.service-box {
+    height:auto;
+    background: #fff;
+    text-align: center;
+    padding: 45px 25px 30px 25px;
+    border: 1px solid transparent;
+    transition: all .3s ease 0s;
+    border-radius: 5px;
+    box-shadow: 0px 2px 6px #00bcd4;
+}
+.service-box .service-img-icon {
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    background: #fff;
+    padding-top: 20px;
+    margin: 0 auto;
+    border-radius: 100%;
+    margin-bottom: 20px;
+    background: lightblue;
+    border: 1px solid #00bcd4;
+    color: #fff;
+}
+.service-inner {
+    margin-top: 30px;
+}
+.service-inner h4 {
+    margin-bottom: 20px;
+}
+.service-inner p {
+    line-height: 28px;
+    font-size: 15px;
+    color:black;   
+} 
+/* image outer css */
+.demand-img-outer img{
+    border:20px solid white;
+    border-radius:50px 0 50px 0; 
+    width:100%;
+} 
+.demand-img-outer{
+    margin:30px 0px;
+    background-color: white;
+    border-radius:50px 0 50px 0;  
+}
+/* hover effect card */
+ .service-box{ 
+    background-size: 100% 200%;
+    background-image: linear-gradient(to bottom,white 0%, lightblue 100%);
+    -webkit-transition: background-position 1s;
+    -moz-transition: background-position 1s;
+    transition: background-position 1s;
+}
+.service-box:hover {
+    background-position: 0-100%;
+}
+/* demand form */
+.demand-form-img{
+    width:100%;
+    height: 100%;
+}
+.demand-input{
+    width: 100%;
+    border-radius: 6px;
+    padding: 20px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    height: 25px;
+    text-indent: 10px;
+    border: 1px solid #30a6e9 !important;
+  
+}
+.demand-input:focus{
+    outline: none;
+    border: none;
+    box-shadow: #00bcd4 2px 2px 2px 2px;
+}
+
+.form-demand i{
+    position: absolute;
+    padding: 5px;
+    margin-top:12px;
+    height: 30px;
+    border-bottom-right-radius: 6px;
+    border-top-right-radius: 6px;
+
+}
+/* / Chrome, Safari, Edge, Opera remove arrow numbertype/ */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+input[type=number]{
+    -moz-appearance: textfield;
+}
+.demand-goal:hover {
+    box-shadow: 0 5px 65px 0 rgb(0 0 0 / 15%);
+    -webkit-box-shadow: 0 5px 65px 0 rgb(0 0 0 / 15%);
+  }
+  .demand-iconpara:hover {
+    box-shadow: 0 5px 65px 0 rgb(0 0 0 / 15%);
+    -webkit-box-shadow: 0 5px 65px 0 rgb(0 0 0 / 15%);
+  }
+/* ====================media for reach customer button============= */
+@media only screen and (min-width:575px) and (max-width:768px){
+.Drive-Excess-Conversion{
+    padding: 5px 10px;
+ }
+}
+/* ====================media for servicebox card=================== */
+@media only screen and (min-width:320px) and (max-width:768px){
+    .service-box{
+        margin-bottom: 10px;
+        margin-top:10px;
+    }
+}
+
+
+    

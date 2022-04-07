@@ -1,0 +1,148 @@
+/* css for media kit */
+.media-kit{background-color:#a2e8ff;}
+.copydesign{color:white;
+text-align: end;}
+.mediakithead{ margin-top: 20px;
+    text-align: justify;}
+.media-kit p{
+    color: black;
+    font-size: 18px;
+    text-align: justify;
+}
+.mediakithead{
+    text-transform: uppercase;
+    font-family: 'Orbitron';
+    overflow: hidden;
+    background: linear-gradient(90deg, #009ffd, #266a91,#4154f1);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    animation: animate 1s linear infinite;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: rgba(255, 255, 255, 0);
+    color: white;
+    text-shadow: .03em .03em 0;
+    font-size:2.0rem; }
+.footerlinkhover:hover,:focus,:active{text-decoration: none;}
+.footerlinkhover{
+    color: #30a6e9;
+    text-decoration: none;}
+.close-btn{
+    color: lightblue;
+    margin-left: 94%;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 1%;
+}
+.close-btn:hover{outline: none;}
+.close-btn:focus{ outline: none;}
+.footer-cont{
+    background-color: black;
+}
+.footaddmapicon{
+    color: #30a6e9;
+    font-size: 20px;
+}
+.footaddvascon{
+    color: white;
+    font-size: 15px;
+    padding-left: 7px;
+    word-spacing: -3px;
+}
+.Email-info{ padding-left: 14px;}
+.Email-info a{color: white;}
+.Email-info a:hover{ text-decoration: none;
+    color: #30a6e9;
+}
+.footemailimg{width: 30px;}
+.model-head-cop{ color: lightblue;}
+.para-copdeck{ color:black;}
+/* corporate deck */
+.close-btn{
+    background-color: lightblue;
+    border-radius: 50%;
+    float:right;
+}
+.close-btn:hover{outline: none;}
+.close-btn:focus{outline: none;}
+.corporate-submit{text-decoration: none;}
+.corporate-img{
+    width:100%;
+    height:100%;
+}
+.form-corporateDeck-fname, .form-corporateDeck-number, .form-corporateDeck-company{
+    width:100%;
+    border-radius: 8px;
+    border: 1px solid #30a6e9 !important;
+    text-indent: 20px;
+    outline: none;
+}
+.form-corporateDeck-email, .form-corporateDeck-code{
+    width:100%; 
+    border-radius: 8px;
+    border: 1px solid #30a6e9 !important;
+    text-indent: 20px;
+    outline: none;
+}
+.corporate-form-in1 i{
+    padding: 5px;
+    position: absolute;  
+}
+.corporate-form-in3 i{
+    padding: 5px;
+    position: absolute;
+}
+.corporate-form-in4 i{
+    padding: 5px;
+    position: absolute;
+}
+.corporate-form-in5 i{
+    padding: 5px;
+    position: absolute;
+} 
+.corporate-form-in3{ margin-top:10px;}
+.corporate-form-in4,.corporate-form-in5{ margin-top:10px;}
+/* / / Chrome, Safari, Edge, Opera / / */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+/* end corporate deck */
+.model-corporatedeck-style {
+    animation: zoom-in 0.7s ease-out ;
+    transition: all 0.7s linear
+  } 
+  @keyframes zoom-in {
+    0% {
+      transform: scale(1.8);
+    }
+    30% {
+      transform: scale(1.6);
+    }
+    60% {
+        transform: scale(1.4);
+      }
+    100% {
+      transform: scale(1);
+    }
+  } 
+  /* corporate deck */
+/* / Chrome, Safari, Edge, Opera / */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+/* / button / */
+.downbtn{
+    width: 150px;
+    height: 50px;
+    border-radius: 25px;
+    margin-right: 160px;
+    color:white;
+}
+ .cop-btn{
+        display: flex !important;
+        justify-content: center !important;
+        align-items: center !important;
+ }

@@ -1,0 +1,111 @@
+.Gallery-banner{
+    height: 60vh;
+    background-image: linear-gradient(
+        rgb(0 0 0 / 60%),
+        rgb(0 0 0 / 68%)
+      ),
+      url('../../img/Gallery/Gallery-Banner.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.Gallery-section {
+    position: relative;
+    background-color: white;
+    overflow: hidden;  
+}
+.gallary-img{
+    cursor: pointer;
+    margin:30px;
+    width:100%;
+    height:100%;
+    background-color: lightblue;
+}
+.gallary-img:hover{
+    cursor: pointer;
+    animation-name: bounce;
+    animation-timing-function: ease;
+  }
+  @keyframes bounce {
+    0%   { transform: translateY(0); }
+    50%  { transform: translateY(-100px); }
+    100% { transform: translateY(0); }
+  }
+  .bdt-gallery-thumbnail img{
+	transform: scale(1.0);
+	transition: .3s ease-in-out;
+  }
+  .bdt-gallery-thumbnail:hover img { 
+	transform: scale(1);
+}
+.heading-gallary{  color:#30a6e9;}
+.modelhead1 i:hover{border-radius: 50%;   }
+.modal-div{ top:20px;}
+.image-gallary-popup img{
+  width: 100%;
+  height: 100%;
+}
+
+.bdt-gallery-thumbnail{
+    overflow: hidden;
+}
+.nav-contaniner{
+    height: 95px;
+    background-color: lightblue;
+  }
+.largemodel{
+    border-radius: 1.3rem;
+    border: none;
+}
+.largemodel:hover img {
+    filter: grayscale(1);
+    transition: 0.5s ease-in-out;
+  }
+@media only screen and (min-width:320px) and (max-width: 768px) {
+    .gallary-img{
+        border: solid white 3px;
+        margin:0px;
+    }
+}
+@media only screen and (min-width:768px) and (max-width: 1024px) {
+    .gallary-img{
+        border: solid white 5px;
+        margin:0px;
+    }
+}
+/* / ====================== / */
+.gallery-info h4 {
+    
+    font-weight: 700;
+    margin-bottom: 2px;
+    font-size: 18px;
+    color: #fff;
+}
+.gallery-info  span {
+    display: block;
+    font-size: 13px;
+    color: #0f74af;
+    font-weight: bold;
+}
+.gallery-info .large image i {
+    font-size: 30px;
+    margin: 0 2px;
+    -webkit-transition: 0.1s ease-in;
+    -o-transition: 0.1s ease-in;
+    transition: 0.1s ease-in;  
+    padding: 3px;   
+}
+ .gallery-info .large image i:hover {
+  -webkit-transform: translate3d(0px, -5px, 0px);
+  transform: translate3d(0px, -5px, 0px);
+  -moz-transform: rotate(360deg);
+  -webkit-transform: rotate(360deg);
+  -ms--transform: rotate(360deg);
+  transform: rotate(360deg);
+  -webkit-transition: all 0.2s;
+  -moz-transition: all 0.2s;
+  -o-transition: all 0.2s;
+  -ms-transition: all 0.2s;
+  transition: all 0.2s;
+}

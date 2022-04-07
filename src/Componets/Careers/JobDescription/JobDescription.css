@@ -1,0 +1,108 @@
+.jdcareerban{
+    background-image: url('../../../img/career/jdbanimg.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 500px;
+}
+.jdformcol{
+    border: 1px solid lightblue;
+    border-radius: 10px;
+}
+.jdroles-res{
+    font-family: Orbitron;
+    color: #30a6e9;}
+.jdicons{
+    font-size: 25px;
+    color: #30a6e9;
+    margin-right: 13px;
+}
+.formjd{
+        outline: none;
+        width: 100%;
+        display: block;
+        padding: .375rem .75rem;
+        font-size: 1rem;
+        font-weight: 400;
+        line-height: 1.5;
+        color: #495057;
+        background-color: #fff;
+        background-clip: padding-box;
+        border: 1px solid #ced4da!important;
+        border-radius: .25rem;
+        transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+.jdfilechoose {
+    position: relative;
+    z-index: 2;
+    width: 100%;
+    height: calc(1.5em + .75rem + 2px);
+    margin: 0;
+    padding: 0.375rem 0.75rem;
+}
+.jdfilechooselabel {
+    position: absolute;
+    top: 0;
+    height: calc(1.5em + .75rem + 2px);
+    padding: .375rem .75rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+}
+.custom-file-label:focus{outline: none;}
+.custom-file-input-input[type=file]:focus{outline: none!important; border:transparent!important;outline-style: none;}
+.custom-file-input-input[type=file]:active{outline: none!important; border:transparent!important;outline-style: none;}
+.custom-file-label[type=file]:focus::after{outline: none!important; border:transparent!important;outline-style: none;}
+.custom-file-label[type=file]:active::after{outline: none!important; border:transparent!important;outline-style: none;}
+.applyheretxt{
+    padding-bottom: 3%;
+    animation: up-down 2s ease-in-out infinite alternate-reverse both;
+    color:#30a6e9;
+    font-family:'Orbitron';
+}
+/* css for save data alert model */
+body.swal2-shown:not(.swal2-no-backdrop):not(.swal2-toast-shown) {
+    overflow: auto;
+    padding-right: 0px!important;
+}
+@media only screen and (min-width: 320px)and (max-width: 575px){
+.jdroles-res{font-size: 16px;}}
+.it .btn-orange
+{
+  background-color: blue;
+  border-color: #777!important;
+  color: #777;
+  text-align: left;
+  width:100%;
+}
+.it input.form-control
+{
+  border:none;
+  margin-bottom:0px;
+  border-radius: 0px;
+  border-bottom: 1px solid #ddd;
+  box-shadow: none;
+}
+.it .form-control:focus
+{
+  border-color: #ff4d0d;
+  box-shadow: none;
+  outline: none;
+}
+.fileUpload {
+    position: relative;
+    overflow: hidden;
+}
+.fileUpload input.upload {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    cursor: pointer;
+    opacity: 0;
+    filter: alpha(opacity=0);
+}

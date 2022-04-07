@@ -1,0 +1,124 @@
+.contactfirst-sec{
+    height: 622px;
+    background-image: linear-gradient(
+        rgb(0 0 0 / 60%),
+        rgb(0 0 0 / 68%)
+      ),
+      url('../../img/Contact-Us.png');
+    background-repeat: no-repeat;
+    background-position: top right;
+    background-size: cover;
+    transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+}
+/* css for save data alert model */
+body.swal2-shown:not(.swal2-no-backdrop):not(.swal2-toast-shown) {
+        overflow: auto;
+        padding-right: 0px!important;
+    }
+.contformcol{
+    background-color: white;
+    margin-top: 4%;
+}
+.contgetin{
+    font-size: 30px;
+    line-height: 1.3;
+    font-weight: 600;
+    margin: 3% 4%;
+    color: #30a6e9; 
+    font-family:Orbitron;
+}
+.contactclear22{
+    width: 130px;
+    height: 47px;
+    color:#30a6e9 ;
+    background-color: transparent;
+    border-color: #30a6e9!important;
+    border-radius: 40px;
+}
+.contactclear22:focus{border-color: #30a6e9!important;outline: none;}
+.conradiodiv{display: flex;}
+.conwhattxt{
+    color: black;
+    margin-right: 41%;
+    font-weight: 600;
+}
+.form-controlall{
+    outline: none;
+    margin:2% 4%;
+    width: 90%;
+        display: block;
+        height: calc(1.5em + .75rem + 2px);
+        padding: .375rem .75rem;
+        font-size: 1rem;
+        font-weight: 400;
+        line-height: 1.5;
+        color: #495057;
+        background-color: #fff;
+        background-clip: padding-box;
+        border: 1px solid #ced4da!important;
+        border-radius: .25rem;
+        transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+ .conradiofirst{margin-top: 5px;}
+.consubtxt{font-size: 20px;}
+.conaddmaker{
+    font-size: 25px;
+    color: #30a6e9;
+    margin-right: 2%;
+}
+.conaddphone{ margin-right: 15%;}
+.contactuscols i.fa {
+    display: inline-block;
+    border-radius: 60px;
+    box-shadow: 0px 0px 2px #30a6e9;
+    padding: 0.5em 0.6em;
+}
+.flagimg{
+    width: 30px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+}
+.contactsale{padding-left: 10%;}
+.conbtnrow{margin: 3%;}
+.radiotextarea{
+    outline: none;
+        margin: 2% 5%;
+        width: 90%;
+        height: calc(1.5em + .75rem + 2px);
+        padding: .375rem .75rem;
+        font-size: 1rem;
+        font-weight: 400;
+        line-height: 1.5;
+        color: #495057;
+        background-color: #fff;
+        background-clip: padding-box;
+        border: 1px solid #ced4da;
+        border-radius: .25rem;
+        transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+/* / Media queries for contact / */
+@media only screen and (min-width: 320px) and (max-width: 425px) {
+    .conwhattxt { margin-right: 0%}
+    .contactsale{padding-left: 3%;}
+    .contactfirst-sec { height: 730px;}
+    .contformcol{margin: 4%;}
+}
+@media only screen and (min-width: 320px) and (max-width: 435px) {
+    .btngetintouch{margin-bottom: 5%;}      
+}
+@media only screen and (min-width: 425px) and (max-width: 575px) {
+    .conwhattxt {margin-right: 25%;}
+    .contactsale{padding-left: 3%;}
+    .contactfirst-sec { height: 730px;}
+    .contformcol{margin: 4%;}
+
+}
+@media only screen and (min-width: 768px) and (max-width: 990px) {
+    .conwhattxt {  margin-right: 51%;}
+    .contactfirst-sec { height: 665px;}
+}
+@media only screen and (min-width: 991px) and (max-width: 1197px) { .conwhattxt { margin-right: 32%;}}
+
+@media only screen and (min-width: 990px) and (max-width:1920px ) {
+.contactfirst-sec { height: 670px;}
+}

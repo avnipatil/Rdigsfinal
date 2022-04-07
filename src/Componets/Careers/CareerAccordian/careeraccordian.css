@@ -1,0 +1,37 @@
+.accordiansec{background-color: #f8f9fa!important;}
+.carshadow{
+    padding: 10px 0px;
+    margin: 1% 0;
+    background-color: #fff;
+    border-radius: .30rem!important;
+    text-align: justify; 
+}
+.carshadow:hover{
+    box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+}
+.accordimg{
+    width: 100px;
+    border-radius: .25rem!important;
+    margin: 0px 5%;
+    padding: 1rem;
+}
+.oppheading{
+    padding-top: 2%;
+    color: #242f3e;
+    text-transform: capitalize;
+    font-weight: bold;
+    transition: 0.2s ease;
+}
+.oppdetails{
+    padding-right: 15px;
+    font-weight: 400;
+    color: #8b8e93;
+    font-size: 15px;
+}
+@media only screen and (min-width: 320px)and (max-width: 575px){
+    .carshadow {text-align: center;}
+    .carshadow p,h5{text-align: center;
+    margin: 10px;}
+    .btnclear {margin-right: 0px;}
+   
+}
